@@ -1,0 +1,19 @@
+.hover {
+    transition: .5s;
+}
+
+.hover:hover {
+    transform: translateY(-12%);
+    transition: .5s;
+    background-color: rgb(89, 196, 176);
+    color: white;
+}
+
+.global-card {
+    height: 100%;
+    padding: 50px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px rgb(229 233 246 / 70%);
+    transition-duration: 0.5s;
+}
